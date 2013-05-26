@@ -1,0 +1,205 @@
+<div class="center" id="top_select">
+	<div class="btn-group" data-toggle="buttons-radio">
+	  <button type="button" class="btn btn-large btn-primary" id="upper_case_button">Upper case</button>
+	  <button type="button" class="btn btn-large btn-primary" id="lower_case_button">Lower case</button>
+	</div>
+</div>
+
+<div id="upper_case">
+	<div class="alphabet" id="answer_A">
+		<p>A</p>
+	</div>
+	<div class="alphabet">
+		<p>B</p>
+	</div>
+	<div class="alphabet">
+		<p>C</p>
+	</div>
+	<div class="alphabet">
+		<p>D</p>
+	</div>
+	<div class="alphabet">
+		<p>E</p>
+	</div>
+	<div class="alphabet">
+		<p>F</p>
+	</div>
+	<div class="alphabet">
+		<p>G</p>
+	</div>
+	<div class="alphabet">
+		<p>H</p>
+	</div>
+	<div class="alphabet">
+		<p>I</p>
+	</div>
+	<div class="alphabet">
+		<p>J</p>
+	</div>
+	<div class="alphabet">
+		<p>K</p>
+	</div>
+	<div class="alphabet">
+		<p>L</p>
+	</div>
+	<div class="alphabet">
+		<p>M</p>
+	</div>
+	<div class="alphabet">
+		<p>N</p>
+	</div>
+	<div class="alphabet">
+		<p>O</p>
+	</div>
+	<div class="alphabet">
+		<p>P</p>
+	</div>
+	<div class="alphabet">
+		<p>Q</p>
+	</div>
+	<div class="alphabet">
+		<p>R</p>
+	</div>
+	<div class="alphabet">
+		<p>S</p>
+	</div>
+	<div class="alphabet">
+		<p>T</p>
+	</div>
+	<div class="alphabet">
+		<p>U</p>
+	</div>
+	<div class="alphabet">
+		<p>V</p>
+	</div>
+	<div class="alphabet">
+		<p>W</p>
+	</div>
+	<div class="alphabet">
+		<p>X</p>
+	</div>
+	<div class="alphabet">
+		<p>Y</p>
+	</div>
+	<div class="alphabet">
+		<p>Z</p>
+	</div>
+</div>
+<div id="lower_case">	
+	<div class="alphabet">
+		<p>a</p>
+	</div>
+	<div class="alphabet">
+		<p>b</p>
+	</div>
+	<div class="alphabet">
+		<p>c</p>
+	</div>
+	<div class="alphabet">
+		<p>d</p>
+	</div>
+	<div class="alphabet">
+		<p>e</p>
+	</div>
+	<div class="alphabet">
+		<p>f</p>
+	</div>
+	<div class="alphabet">
+		<p>g</p>
+	</div>
+	<div class="alphabet">
+		<p>h</p>
+	</div>
+	<div class="alphabet">
+		<p>i</p>
+	</div>
+	<div class="alphabet">
+		<p>j</p>
+	</div>
+	<div class="alphabet">
+		<p>k</p>
+	</div>
+	<div class="alphabet">
+		<p>l</p>
+	</div>
+	<div class="alphabet">
+		<p>m</p>
+	</div>
+	<div class="alphabet">
+		<p>n</p>
+	</div>
+	<div class="alphabet">
+		<p>o</p>
+	</div>
+	<div class="alphabet">
+		<p>p</p>
+	</div>
+	<div class="alphabet">
+		<p>q</p>
+	</div>
+	<div class="alphabet">
+		<p>r</p>
+	</div>
+	<div class="alphabet">
+		<p>s</p>
+	</div>
+	<div class="alphabet">
+		<p>t</p>
+	</div>
+	<div class="alphabet">
+		<p>u</p>
+	</div>
+	<div class="alphabet">
+		<p>v</p>
+	</div>
+	<div class="alphabet">
+		<p>w</p>
+	</div>
+	<div class="alphabet">
+		<p>x</p>
+	</div>
+	<div class="alphabet">
+		<p>y</p>
+	</div>
+	<div class="alphabet">
+		<p>z</p>
+	</div>
+</div>
+
+<script>
+	$(function() {
+		$('#lower_case').hide();
+		$('#upper_case_button').button('toggle')
+		$('#lower_case_button').click(function(){
+			$('#upper_case').hide();
+			$('#lower_case').show();
+			console.log(randomChar("lowerLetter"));
+		})
+		$('#upper_case_button').click(function(){
+			$('#upper_case').show();
+			$('#lower_case').hide();
+			console.log(randomChar("upperLetter"));
+		});
+		$('#answer_A').click(function(){
+			if ("A" == randomChar("upperLetter")){
+		        console.log("Yes!");
+		    } 
+		    else {
+				console.log("No!");
+		    }    
+		});
+
+		function randomChar(type){
+		    var pool = "";
+
+		    if (type == "lowerLetter"){
+		        pool = "abcdefghijklmnopqrstuvwxyz";
+		    }
+		    else {
+		        pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		    }
+		    var arr = pool.split('');
+		    return arr[Math.floor(Math.random()*arr.length)];
+		}
+	});
+</script>
