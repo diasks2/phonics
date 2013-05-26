@@ -1,4 +1,7 @@
-<div class="alphabet">
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="center jp-audio"></div>	
+
+<div class="alphabet" id="letterA">
 	<p>A</p>
 </div>
 <div class="alphabet">
@@ -76,3 +79,20 @@
 <div class="alphabet">
 	<p>Z</p>
 </div>
+<script type="text/javascript">
+	$(function() {
+		$('#letterA').click(function(){
+			$("#jquery_jplayer_1").jPlayer({
+				ready: function (event) {
+					$(this).jPlayer("setMedia", {
+						m4a: "/assets/Aa.mp3",
+						oga: "/assets/Aa.ogg"
+					}).jPlayer("play");
+				},
+				swfPath: "../js",
+				supplied: "m4a, oga",
+				wmode: "window"
+			});
+		});	
+	});
+</script>
