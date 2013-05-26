@@ -1,5 +1,5 @@
 $(function() {
-	$('#letterA').click(function(){
+	$('.letterA').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_1").jPlayer({
 			ready: function (event) {
@@ -12,7 +12,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterB').click(function(){
+	$('.letterB').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_2").jPlayer({
 			ready: function (event) {
@@ -25,7 +25,7 @@ $(function() {
 			wmode: "window"
 		});
 	});
-	$('#letterC').click(function(){
+	$('.letterC').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_3").jPlayer({
 			ready: function (event) {
@@ -38,7 +38,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterD').click(function(){
+	$('.letterD').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_4").jPlayer({
 			ready: function (event) {
@@ -51,7 +51,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterE').click(function(){
+	$('.letterE').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_5").jPlayer({
 			ready: function (event) {
@@ -64,7 +64,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterF').click(function(){
+	$('.letterF').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_6").jPlayer({
 			ready: function (event) {
@@ -77,7 +77,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterG').click(function(){
+	$('.letterG').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_7").jPlayer({
 			ready: function (event) {
@@ -90,7 +90,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterH').click(function(){
+	$('.letterH').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_8").jPlayer({
 			ready: function (event) {
@@ -103,7 +103,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterI').click(function(){
+	$('.letterI').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_9").jPlayer({
 			ready: function (event) {
@@ -116,7 +116,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterJ').click(function(){
+	$('.letterJ').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_10").jPlayer({
 			ready: function (event) {
@@ -129,7 +129,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterK').click(function(){
+	$('.letterK').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_11").jPlayer({
 			ready: function (event) {
@@ -142,7 +142,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterL').click(function(){
+	$('.letterL').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_12").jPlayer({
 			ready: function (event) {
@@ -155,7 +155,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterM').click(function(){
+	$('.letterM').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_13").jPlayer({
 			ready: function (event) {
@@ -168,7 +168,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterN').click(function(){
+	$('.letterN').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_14").jPlayer({
 			ready: function (event) {
@@ -181,7 +181,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterO').click(function(){
+	$('.letterO').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_15").jPlayer({
 			ready: function (event) {
@@ -194,7 +194,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterP').click(function(){
+	$('.letterP').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_16").jPlayer({
 			ready: function (event) {
@@ -207,7 +207,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterQ').click(function(){
+	$('.letterQ').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_17").jPlayer({
 			ready: function (event) {
@@ -220,7 +220,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterR').click(function(){
+	$('.letterR').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_18").jPlayer({
 			ready: function (event) {
@@ -233,7 +233,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterS').click(function(){
+	$('.letterS').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_19").jPlayer({
 			ready: function (event) {
@@ -246,7 +246,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterT').click(function(){
+	$('.letterT').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_20").jPlayer({
 			ready: function (event) {
@@ -259,7 +259,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterU').click(function(){
+	$('.letterU').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_21").jPlayer({
 			ready: function (event) {
@@ -272,7 +272,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterV').click(function(){
+	$('.letterV').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_22").jPlayer({
 			ready: function (event) {
@@ -285,7 +285,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterW').click(function(){
+	$('.letterW').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_23").jPlayer({
 			ready: function (event) {
@@ -298,7 +298,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterX').click(function(){
+	$('.letterX').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_24").jPlayer({
 			ready: function (event) {
@@ -311,7 +311,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterY').click(function(){
+	$('.letterY').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_25").jPlayer({
 			ready: function (event) {
@@ -324,7 +324,7 @@ $(function() {
 			wmode: "window"
 		});
 	});	
-	$('#letterZ').click(function(){
+	$('.letterZ').click(function(){
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_26").jPlayer({
 			ready: function (event) {
