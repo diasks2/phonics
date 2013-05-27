@@ -336,5 +336,5 @@ $(function() {
 			supplied: "m4a, oga",
 			wmode: "window"
 		});
-	});	
+	});
 });
