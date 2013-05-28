@@ -1,5 +1,83 @@
 $(function() {
 	$('.letterA').click(function(){
+		lp_A();
+	});	
+	$('.letterB').click(function(){
+		lp_B();
+	});
+	$('.letterC').click(function(){
+		lp_C();
+	});	
+	$('.letterD').click(function(){
+		lp_D();
+	});	
+	$('.letterE').click(function(){
+		lp_E();
+	});	
+	$('.letterF').click(function(){
+		lp_F();
+	});	
+	$('.letterG').click(function(){
+		lp_G();
+	});	
+	$('.letterH').click(function(){
+		lp_H();
+	});	
+	$('.letterI').click(function(){
+		lp_I();
+	});	
+	$('.letterJ').click(function(){
+		lp_J();
+	});	
+	$('.letterK').click(function(){
+		lp_K();
+	});	
+	$('.letterL').click(function(){
+		lp_L();
+	});	
+	$('.letterM').click(function(){
+		lp_M();
+	});	
+	$('.letterN').click(function(){
+		lp_N();
+	});	
+	$('.letterO').click(function(){
+		lp_O();
+	});	
+	$('.letterP').click(function(){
+		lp_P();
+	});	
+	$('.letterQ').click(function(){
+		lp_Q();
+	});	
+	$('.letterR').click(function(){
+		lp_R();
+	});	
+	$('.letterS').click(function(){
+		lp_S();
+	});	
+	$('.letterT').click(function(){
+		lp_T();
+	});	
+	$('.letterU').click(function(){
+		lp_U();
+	});	
+	$('.letterV').click(function(){
+		lp_V();
+	});	
+	$('.letterW').click(function(){
+		lp_W();
+	});	
+	$('.letterX').click(function(){
+		lp_X();
+	});	
+	$('.letterY').click(function(){
+		lp_Y();
+	});	
+	$('.letterZ').click(function(){
+		lp_Z();
+	});
+	function lp_A() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_1").jPlayer({
 			ready: function (event) {
@@ -10,9 +88,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterB').click(function(){
+		});	
+	}
+	function lp_B() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_2").jPlayer({
 			ready: function (event) {
@@ -23,9 +101,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});
-	$('.letterC').click(function(){
+		});	
+	}
+	function lp_C() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_3").jPlayer({
 			ready: function (event) {
@@ -36,9 +114,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterD').click(function(){
+		});	
+	}
+	function lp_D() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_4").jPlayer({
 			ready: function (event) {
@@ -49,9 +127,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterE').click(function(){
+		});	
+	}
+	function lp_E() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_5").jPlayer({
 			ready: function (event) {
@@ -62,9 +140,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterF').click(function(){
+		});	
+	}
+	function lp_F() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_6").jPlayer({
 			ready: function (event) {
@@ -75,9 +153,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterG').click(function(){
+		});	
+	}
+	function lp_G() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_7").jPlayer({
 			ready: function (event) {
@@ -88,9 +166,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterH').click(function(){
+		});	
+	}
+	function lp_H() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_8").jPlayer({
 			ready: function (event) {
@@ -101,9 +179,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterI').click(function(){
+		});	
+	}
+	function lp_I() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_9").jPlayer({
 			ready: function (event) {
@@ -114,9 +192,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterJ').click(function(){
+		});	
+	}
+	function lp_J() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_10").jPlayer({
 			ready: function (event) {
@@ -127,9 +205,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterK').click(function(){
+		});	
+	}
+	function lp_K() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_11").jPlayer({
 			ready: function (event) {
@@ -140,9 +218,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterL').click(function(){
+		});	
+	}
+	function lp_L() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_12").jPlayer({
 			ready: function (event) {
@@ -153,9 +231,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterM').click(function(){
+		});	
+	}
+	function lp_M() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_13").jPlayer({
 			ready: function (event) {
@@ -166,9 +244,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterN').click(function(){
+		});	
+	}
+	function lp_N() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_14").jPlayer({
 			ready: function (event) {
@@ -179,9 +257,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterO').click(function(){
+		});	
+	}
+	function lp_O() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_15").jPlayer({
 			ready: function (event) {
@@ -192,9 +270,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterP').click(function(){
+		});	
+	}
+	function lp_P() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_16").jPlayer({
 			ready: function (event) {
@@ -205,9 +283,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterQ').click(function(){
+		});	
+	}
+	function lp_Q() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_17").jPlayer({
 			ready: function (event) {
@@ -218,9 +296,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterR').click(function(){
+		});	
+	}
+	function lp_R() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_18").jPlayer({
 			ready: function (event) {
@@ -231,9 +309,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterS').click(function(){
+		});	
+	}
+	function lp_S() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_19").jPlayer({
 			ready: function (event) {
@@ -244,9 +322,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterT').click(function(){
+		});	
+	}
+	function lp_T() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_20").jPlayer({
 			ready: function (event) {
@@ -257,9 +335,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterU').click(function(){
+		});	
+	}
+	function lp_U() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_21").jPlayer({
 			ready: function (event) {
@@ -270,9 +348,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterV').click(function(){
+		});	
+	}
+	function lp_V() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_22").jPlayer({
 			ready: function (event) {
@@ -283,9 +361,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterW').click(function(){
+		});	
+	}
+	function lp_W() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_23").jPlayer({
 			ready: function (event) {
@@ -296,9 +374,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterX').click(function(){
+		});	
+	}
+	function lp_X() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_24").jPlayer({
 			ready: function (event) {
@@ -309,9 +387,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterY').click(function(){
+		});	
+	}
+	function lp_Y() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_25").jPlayer({
 			ready: function (event) {
@@ -322,9 +400,9 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});	
-	$('.letterZ').click(function(){
+		});	
+	}
+	function lp_Z() {
 		$(".jp-jplayer").jPlayer("destroy");
 		$("#jquery_jplayer_26").jPlayer({
 			ready: function (event) {
@@ -335,6 +413,6 @@ $(function() {
 			},
 			supplied: "m4a, oga",
 			wmode: "window"
-		});
-	});
+		});	
+	}
 });
