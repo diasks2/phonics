@@ -1,0 +1,2353 @@
+<div id="jquery_jplayer_fail" class="jp-jplayer"></div>
+<div id="jquery_jplayer_success" class="jp-jplayer"></div>
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+<div id="jquery_jplayer_4" class="jp-jplayer"></div>
+<div id="jquery_jplayer_5" class="jp-jplayer"></div>
+<div id="jquery_jplayer_6" class="jp-jplayer"></div>
+<div id="jquery_jplayer_7" class="jp-jplayer"></div>
+<div id="jquery_jplayer_8" class="jp-jplayer"></div>
+<div id="jquery_jplayer_9" class="jp-jplayer"></div>
+<div id="jquery_jplayer_10" class="jp-jplayer"></div>
+<div id="jquery_jplayer_11" class="jp-jplayer"></div>
+<div id="jquery_jplayer_12" class="jp-jplayer"></div>
+<div id="jquery_jplayer_13" class="jp-jplayer"></div>
+<div id="jquery_jplayer_14" class="jp-jplayer"></div>
+<div id="jquery_jplayer_15" class="jp-jplayer"></div>
+<div id="jquery_jplayer_16" class="jp-jplayer"></div>
+<div id="jquery_jplayer_17" class="jp-jplayer"></div>
+<div id="jquery_jplayer_18" class="jp-jplayer"></div>
+<div id="jquery_jplayer_19" class="jp-jplayer"></div>
+<div id="jquery_jplayer_20" class="jp-jplayer"></div>
+<div id="jquery_jplayer_21" class="jp-jplayer"></div>
+<div id="jquery_jplayer_22" class="jp-jplayer"></div>
+<div id="jquery_jplayer_23" class="jp-jplayer"></div>
+<div id="jquery_jplayer_24" class="jp-jplayer"></div>
+<div id="jquery_jplayer_25" class="jp-jplayer"></div>
+<div id="jquery_jplayer_26" class="jp-jplayer"></div>
+
+<div class="center" id="top_select">
+	<div class="btn-group">
+	  <button type="button" class="btn btn-large btn-primary" id="upper_case_touch_button">Upper case</button>
+	  <button type="button" class="btn btn-large btn-primary" id="lower_case_touch_button">Lower case</button>
+	</div>
+</div>
+
+<div class="center">
+	Points: <p id="points_container">0</p>
+</div>	
+
+<div class="center" id="go_buster">
+	<%= image_tag("go_buster.jpg") %>
+</div>
+
+<div id="upper_case_touch">
+	<div class="alphabet" id="answer_A">
+		<p>A</p>
+	</div>
+	<div class="alphabet" id="answer_B">
+		<p>B</p>
+	</div>
+	<div class="alphabet" id="answer_C">
+		<p>C</p>
+	</div>
+	<div class="alphabet" id="answer_D">
+		<p>D</p>
+	</div>
+	<div class="alphabet" id="answer_E">
+		<p>E</p>
+	</div>
+	<div class="alphabet" id="answer_F">
+		<p>F</p>
+	</div>
+	<div class="alphabet" id="answer_G">
+		<p>G</p>
+	</div>
+	<div class="alphabet" id="answer_H">
+		<p>H</p>
+	</div>
+	<div class="alphabet" id="answer_I">
+		<p>I</p>
+	</div>
+	<div class="alphabet" id="answer_J">
+		<p>J</p>
+	</div>
+	<div class="alphabet" id="answer_K">
+		<p>K</p>
+	</div>
+	<div class="alphabet" id="answer_L">
+		<p>L</p>
+	</div>
+	<div class="alphabet" id="answer_M">
+		<p>M</p>
+	</div>
+	<div class="alphabet" id="answer_N">
+		<p>N</p>
+	</div>
+	<div class="alphabet" id="answer_O">
+		<p>O</p>
+	</div>
+	<div class="alphabet" id="answer_P">
+		<p>P</p>
+	</div>
+	<div class="alphabet" id="answer_Q">
+		<p>Q</p>
+	</div>
+	<div class="alphabet" id="answer_R">
+		<p>R</p>
+	</div>
+	<div class="alphabet" id="answer_S">
+		<p>S</p>
+	</div>
+	<div class="alphabet" id="answer_T">
+		<p>T</p>
+	</div>
+	<div class="alphabet" id="answer_U">
+		<p>U</p>
+	</div>
+	<div class="alphabet" id="answer_V">
+		<p>V</p>
+	</div>
+	<div class="alphabet" id="answer_W">
+		<p>W</p>
+	</div>
+	<div class="alphabet" id="answer_X">
+		<p>X</p>
+	</div>
+	<div class="alphabet" id="answer_Y">
+		<p>Y</p>
+	</div>
+	<div class="alphabet" id="answer_Z">
+		<p>Z</p>
+	</div>
+</div>
+<div id="lower_case_touch">	
+	<div class="alphabet" id="answer_a">
+		<p>a</p>
+	</div>
+	<div class="alphabet" id="answer_b">
+		<p>b</p>
+	</div>
+	<div class="alphabet" id="answer_c">
+		<p>c</p>
+	</div>
+	<div class="alphabet" id="answer_d">
+		<p>d</p>
+	</div>
+	<div class="alphabet" id="answer_e">
+		<p>e</p>
+	</div>
+	<div class="alphabet" id="answer_f">
+		<p>f</p>
+	</div>
+	<div class="alphabet" id="answer_g">
+		<p>g</p>
+	</div>
+	<div class="alphabet" id="answer_h">
+		<p>h</p>
+	</div>
+	<div class="alphabet" id="answer_i">
+		<p>i</p>
+	</div>
+	<div class="alphabet" id="answer_j">
+		<p>j</p>
+	</div>
+	<div class="alphabet" id="answer_k">
+		<p>k</p>
+	</div>
+	<div class="alphabet" id="answer_l">
+		<p>l</p>
+	</div>
+	<div class="alphabet" id="answer_m">
+		<p>m</p>
+	</div>
+	<div class="alphabet" id="answer_n">
+		<p>n</p>
+	</div>
+	<div class="alphabet" id="answer_o">
+		<p>o</p>
+	</div>
+	<div class="alphabet" id="answer_p">
+		<p>p</p>
+	</div>
+	<div class="alphabet" id="answer_q">
+		<p>q</p>
+	</div>
+	<div class="alphabet" id="answer_r">
+		<p>r</p>
+	</div>
+	<div class="alphabet" id="answer_s">
+		<p>s</p>
+	</div>
+	<div class="alphabet" id="answer_t">
+		<p>t</p>
+	</div>
+	<div class="alphabet" id="answer_u">
+		<p>u</p>
+	</div>
+	<div class="alphabet" id="answer_v">
+		<p>v</p>
+	</div>
+	<div class="alphabet" id="answer_w">
+		<p>w</p>
+	</div>
+	<div class="alphabet" id="answer_x">
+		<p>x</p>
+	</div>
+	<div class="alphabet" id="answer_y">
+		<p>y</p>
+	</div>
+	<div class="alphabet" id="answer_z">
+		<p>z</p>
+	</div>
+</div>
+
+<script>
+	$(function() {
+		var randomLetter = 0;
+		var points = 0;
+		$('#lower_case_touch').hide();
+		$('#upper_case_touch').hide();
+		$('#lower_case_touch_button').click(function(){
+			randomLetter = randomChar("lowerLetter");
+			$('#go_buster').hide();
+			$('#upper_case_touch').hide();
+			$('#lower_case_touch').show();
+			getSong(randomLetter.toUpperCase());
+		})
+		$('#upper_case_touch_button').click(function(){
+			randomLetter = randomChar("upperLetter");
+			$('#go_buster').hide();
+			$('#upper_case_touch').show();
+			$('#lower_case_touch').hide();
+			getSong(randomLetter);
+		});
+
+		function randomChar(type){
+		    var pool = "";
+
+		    if (type == "lowerLetter"){
+		        pool = "abcdefghijklmnopqrstuvwxyz";
+		    }
+		    else {
+		        pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		    }
+		    var arr = pool.split('');
+		    return arr[Math.floor(Math.random()*arr.length)];
+		}
+
+		function getSong(letter){
+			var file_name = "p_".concat(letter + "()");
+			console.log(file_name);
+			eval(file_name);
+			function p_A() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_1").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Aa_P.mp3",
+							oga: "/assets/Aa_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_B() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_2").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Bb_P.mp3",
+							oga: "/assets/Bb_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_C() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_3").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Cc_P.mp3",
+							oga: "/assets/Cc_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_D() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_4").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Dd_P.mp3",
+							oga: "/assets/Dd_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_E() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_5").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ee_P.mp3",
+							oga: "/assets/Ee_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_F() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_6").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ff_P.mp3",
+							oga: "/assets/Ff_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_G() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_7").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Gg_P.mp3",
+							oga: "/assets/Gg_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_H() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_8").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Hh_P.mp3",
+							oga: "/assets/Hh_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_I() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_9").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ii_P.mp3",
+							oga: "/assets/Ii_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_J() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_10").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Jj_P.mp3",
+							oga: "/assets/Jj_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_K() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_11").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Kk_P.mp3",
+							oga: "/assets/Kk_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_L() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_12").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ll_P.mp3",
+							oga: "/assets/Ll_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_M() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_13").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Mm_P.mp3",
+							oga: "/assets/Mm_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_N() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_14").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Nn_P.mp3",
+							oga: "/assets/Nn_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_O() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_15").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Oo_P.mp3",
+							oga: "/assets/Oo_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_P() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_16").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Pp_P.mp3",
+							oga: "/assets/Pp_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_Q() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_17").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Qq_P.mp3",
+							oga: "/assets/Qq_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_R() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_18").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Rr_P.mp3",
+							oga: "/assets/Rr_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_S() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_19").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ss_P.mp3",
+							oga: "/assets/Ss_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_T() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_20").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Tt_P.mp3",
+							oga: "/assets/Tt_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_U() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_21").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Uu_P.mp3",
+							oga: "/assets/Uu_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_V() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_22").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Vv_P.mp3",
+							oga: "/assets/Vv_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_W() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_23").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Ww_P.mp3",
+							oga: "/assets/Ww_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_X() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_24").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Xx_P.mp3",
+							oga: "/assets/Xx_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_Y() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_25").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Yy_P.mp3",
+							oga: "/assets/Yy_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+			function p_Z() {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_26").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/Zz_P.mp3",
+							oga: "/assets/Zz_P.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});	
+			}
+		}
+
+		$('#answer_A').click(function(){
+			if ("A" == randomLetter){
+				points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_B').click(function(){
+			if ("B" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_C').click(function(){
+			if ("C" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_D').click(function(){
+			if ("D" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_E').click(function(){
+			if ("E" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_F').click(function(){
+			if ("F" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_G').click(function(){
+			if ("G" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_H').click(function(){
+			if ("H" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_I').click(function(){
+			if ("I" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_J').click(function(){
+			if ("J" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_K').click(function(){
+			if ("K" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_L').click(function(){
+			if ("L" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_M').click(function(){
+			if ("M" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_N').click(function(){
+			if ("N" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_O').click(function(){
+			if ("O" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_P').click(function(){
+			if ("P" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_Q').click(function(){
+			if ("Q" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_R').click(function(){
+			if ("R" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_S').click(function(){
+			if ("S" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_T').click(function(){
+			if ("T" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_U').click(function(){
+			if ("U" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_V').click(function(){
+			if ("V" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_W').click(function(){
+			if ("W" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_X').click(function(){
+			if ("X" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_Y').click(function(){
+			if ("Y" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_Z').click(function(){
+			if ("Z" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_a').click(function(){
+			if ("a" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_b').click(function(){
+			if ("b" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_c').click(function(){
+			if ("c" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_d').click(function(){
+			if ("d" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_e').click(function(){
+			if ("e" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_f').click(function(){
+			if ("f" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_g').click(function(){
+			if ("g" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_h').click(function(){
+			if ("h" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_i').click(function(){
+			if ("i" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_j').click(function(){
+			if ("j" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_k').click(function(){
+			if ("k" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_l').click(function(){
+			if ("l" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_m').click(function(){
+			if ("m" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_n').click(function(){
+			if ("n" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_o').click(function(){
+			if ("o" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_p').click(function(){
+			if ("p" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_q').click(function(){
+			if ("q" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_r').click(function(){
+			if ("r" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_s').click(function(){
+			if ("s" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_t').click(function(){
+			if ("t" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_u').click(function(){
+			if ("u" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_v').click(function(){
+			if ("v" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_w').click(function(){
+			if ("w" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_x').click(function(){
+			if ("x" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_y').click(function(){
+			if ("y" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+		$('#answer_z').click(function(){
+			if ("z" == randomLetter){
+		        points = points + 1;
+				$('#points_container').empty();
+				$('#points_container').append(points);
+		        $('#upper_case_touch').hide();
+				$('#lower_case_touch').hide();
+		        $('#go_buster').show();
+		        $(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_success").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/coin_drop.mp3",
+							oga: "/assets/coin_drop.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    } 
+		    else {
+				$(".jp-jplayer").jPlayer("destroy");
+				$("#jquery_jplayer_fail").jPlayer({
+					ready: function (event) {
+						$(this).jPlayer("setMedia", {
+							m4a: "/assets/fail_buzzer.mp3",
+							oga: "/assets/fail_buzzer.ogg"
+						}).jPlayer("play");
+					},
+					supplied: "m4a, oga",
+					wmode: "window"
+				});
+		    }    
+		});
+	});
+</script>
