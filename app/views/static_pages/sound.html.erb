@@ -207,17 +207,30 @@
 	$(function() {
 		var randomLetter = 0;
 		var points = 0;
+		var lowerCaseArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+		var upperCaseArray = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
 		$('#lower_case_touch').hide();
 		$('#upper_case_touch').hide();
 		$('#lower_case_touch_button').click(function(){
+			if (lowerCaseArray.length == 0){
+				lowerCaseArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+			}
 			randomLetter = randomChar("lowerLetter");
+			var lowerIndex = lowerCaseArray.indexOf(randomLetter);
+			lowerCaseArray.splice(lowerIndex, 1);
 			$('#go_buster').hide();
 			$('#upper_case_touch').hide();
 			$('#lower_case_touch').show();
 			getSong(randomLetter.toUpperCase());
 		})
 		$('#upper_case_touch_button').click(function(){
+			if (upperCaseArray.length == 0){
+				upperCaseArray = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+			}
 			randomLetter = randomChar("upperLetter");
+			var upperIndex = upperCaseArray.indexOf(randomLetter);
+			upperCaseArray.splice(upperIndex, 1);
 			$('#go_buster').hide();
 			$('#upper_case_touch').show();
 			$('#lower_case_touch').hide();
@@ -228,13 +241,11 @@
 		    var pool = "";
 
 		    if (type == "lowerLetter"){
-		        pool = "abcdefghijklmnopqrstuvwxyz";
+		        return lowerCaseArray[Math.floor(Math.random()*lowerCaseArray.length)];
 		    }
 		    else {
-		        pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		        return upperCaseArray[Math.floor(Math.random()*upperCaseArray.length)];
 		    }
-		    var arr = pool.split('');
-		    return arr[Math.floor(Math.random()*arr.length)];
 		}
 
 		function getSong(letter){
