@@ -195,9 +195,9 @@
 			console.log(randomLetter);
 			$('#random_letter_box').show();
 			$('#random_letter').append(randomLetter);
-			setTimeout("jQuery('#lower_case_touch').show();", 50);
-			setTimeout("jQuery('#random_letter').empty();", 50);
-			setTimeout("jQuery('#random_letter_box').hide();", 50);
+			setTimeout("jQuery('#lower_case_touch').show();", 350);
+			setTimeout("jQuery('#random_letter').empty();", 350);
+			setTimeout("jQuery('#random_letter_box').hide();", 350);
 		})
 		$('#upper_case_touch_button').click(function(){
 			randomLetter = randomChar("upperLetter");
@@ -207,9 +207,9 @@
 			console.log(randomLetter);
 			$('#random_letter_box').show();
 			$('#random_letter').append(randomLetter);
-			setTimeout("jQuery('#upper_case_touch').show();", 50);
-			setTimeout("jQuery('#random_letter').empty();", 50);
-			setTimeout("jQuery('#random_letter_box').hide();", 50);
+			setTimeout("jQuery('#upper_case_touch').show();", 350);
+			setTimeout("jQuery('#random_letter').empty();", 350);
+			setTimeout("jQuery('#random_letter_box').hide();", 350);
 		});
 		$('#answer_A').click(function(){
 			if ("A" == randomLetter){

@@ -1,0 +1,28 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <%= link_to "Alphabet & Phonics", root_path, :class => "brand" %>
+    <ul class="nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li class="<%= 'active' if current_page?(touch_path) %>"><%= link_to touch_path do %>
+                <i class="icon-picture"></i>
+                Letters (Visual Game)
+            	<% end %>
+            </li>
+            <li class="<%= 'active' if current_page?(sound_path) %>"><%= link_to sound_path do %>
+                <i class="icon-volume-down"></i>
+                Letters and Phonics (Sound Game)
+            	<% end %>
+            </li> 
+            <li class="<%= 'active' if current_page?(phonics_path) %>"><%= link_to phonics_path do %>
+                <i class="icon-volume-up"></i>
+                Phonics (Sound Game)
+            	<% end %>
+            </li> 
+        </ul>
+      </li>
+	</ul>
+  </div>
+</div>
+
