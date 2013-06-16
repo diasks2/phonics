@@ -10,7 +10,7 @@
 }
 
 .alphabet {
-  float: left;
+  display:inline-block;
   text-align:center;
   width: 150px;
   cursor: pointer;
@@ -47,6 +47,14 @@
 }
 
 #upper_case_touch {
+  display:none;
+}
+
+#upper_case{
+  display:none;
+}
+
+#lower_case{
   display:none;
 }
 
