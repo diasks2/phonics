@@ -186,6 +186,7 @@
 
 <script>
 	$(function() {
+		$(".toggle-buttons > .m-btn").click(function(){$(this).siblings(".m-btn").removeClass("active");$(this).addClass("active")});
 		var randomLetter = 0;
 		var points = 0;
 		var caseLetter = "lower"
