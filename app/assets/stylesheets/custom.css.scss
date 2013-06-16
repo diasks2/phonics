@@ -37,11 +37,6 @@
           box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
 }
 
-#random_letter {
-  font-size: 290px;
-  padding-top: 130px;
-}
-
 #lower_case_touch {
   display:none;
 }
@@ -58,6 +53,15 @@
   display:none;
 }
 
-#go_buster {
+#correct_answer_image {
   display:none;
+}
+
+#wrong_answer_image {
+  display:none;
+}
+
+#points_container_outer{
+  margin-top:10px;
+  margin-right:20px;
 }
