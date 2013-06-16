@@ -11,15 +11,11 @@
 
 .alphabet {
   float: left;
-  width: 100px;
   text-align:center;
-  height: 65px;
-  font-size: 90px;
+  width: 150px;
   cursor: pointer;
-  padding: 4px;
-  padding-top:45px;
-  margin: 2px;
-  border: 1px solid #ddd;
+  margin: 4px;
+  border: 3px solid #ffffff;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -34,11 +30,11 @@
 
 .alphabet:hover,
 .alphabet:focus {
-  border-color: #0088cc;
   background-color: #a4c8ea;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
-     -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
-          box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  border: 3px solid #875f9d;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
+          box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
 }
 
 #random_letter {
